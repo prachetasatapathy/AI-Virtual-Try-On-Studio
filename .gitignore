@@ -1,12 +1,37 @@
 # Python
 __pycache__/
-venv*/
 *.pyc
 *.pyo
 *.pyd
+
+# Virtual environments
+venv/
+venv311/
+.venv/
+env/
+
+# Databases
 *.db
 *.sqlite3
+
+# Environment variables
 .env
+
+# Firebase secrets
 firebase_admin_key.json
-/static/uploads/
-/frontend/firebase_config.js
+frontend/firebase_config.js
+
+# IDE
+.vscode/
+
+# Uploads & generated outputs
+static/uploads/
+results/
+backend/results/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
