@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+venv*/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+firebase_admin_key.json
+/static/uploads/
+/frontend/firebase_config.js
