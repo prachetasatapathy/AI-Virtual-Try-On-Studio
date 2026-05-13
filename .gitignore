@@ -10,21 +10,13 @@ venv311/
 .venv/
 env/
 
-# Databases
-*.db
-*.sqlite3
-
 # Environment variables
 .env
-
-# Firebase secrets
-firebase_admin_key.json
-frontend/firebase_config.js
 
 # IDE
 .vscode/
 
-# Uploads & generated outputs
+# Uploads & outputs
 static/uploads/
 results/
 backend/results/
@@ -32,6 +24,14 @@ backend/results/
 # Logs
 *.log
 
+# Databases
+*.db
+*.sqlite3
+
 # OS files
 .DS_Store
 Thumbs.db
+
+# Firebase secrets
+firebase_admin_key.json
+frontend/firebase_config.js
